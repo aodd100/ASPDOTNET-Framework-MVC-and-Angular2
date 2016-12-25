@@ -20,29 +20,7 @@
             <link rel="stylesheet" href="~/css/site.css" asp-file-version="true" />
         </environment>
 
-         @*
-        <script src="~/lib/ng2/es6-shim.js"></script>
-        <script src="~/lib/ng2/system-polyfills.js"></script>
-        <script src="~/lib/ng2/angular2-polyfills.js"></script>
-        <script src="~/lib/ng2/system.src.js"></script>
-        <script src="~/rxjs/rx.js"></script>
-        <script src="~/lib/ng2/angular2.dev.js"></script>
-        <script>
-            System.config({
-                map: {
-                    app: '/app'
-                },
-                packages: {
-                    app: {
-                        defaultExtension: 'js'
-                    }
-                }
-            });
-        </script>
-        <script>
-            System.import('/app/main')
-                .catch(function (err) { console.error(err); });
-        </script>*@
+         
         <!-- Polyfill(s) for older browsers -->
         <script src="~/lib/ng2/shim.min.js"></script>
         <script src="~/lib/ng2/zone.js"></script>
