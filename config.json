@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "Fobi_Foods"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-Fobi_Foods-d219f3f7-50d5-4b30-b05e-88e31d0fb8b3;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
