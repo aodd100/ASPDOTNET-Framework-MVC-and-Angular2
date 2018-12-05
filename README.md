@@ -145,6 +145,7 @@ defaultExtension: 'js'
 });
 
 })(this);
+
 Add tsconfig.json file:
 Now add a json file in your project. Go to soloution explorer => right click on project name => choose Add => then choose JSON file => Enter the name “tsconfig.json” => then click ok button. It will create a new json file in your project. Now add the below code into tsconfig.json file.
 
